@@ -49,3 +49,21 @@ h2 {
 .nav-menu a:hover {
   color: pink;
 }
+
+.caption {
+  text-align: center;
+  color:blue;
+}
+.image-row{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.image-box {
+  text-align: center;
+}
+.image-box img {
+  width: 670px;
+  height: 800px;
+  object-fit: cover;
+}
