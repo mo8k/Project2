@@ -1,6 +1,13 @@
 
-
-/**index.html**/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: black;
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+}
 
 h1 {
   color:black;
@@ -17,3 +24,28 @@ h1 {
   position: middle;
 }
 
+h2 {
+  margin-bottom: 2px;
+  color: blue;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.nav-menu li {
+  margin: 0 15px;
+}
+.nav-menu a {
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-menu a:hover {
+  color: pink;
+}
