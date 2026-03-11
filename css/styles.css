@@ -8,4 +8,12 @@ h1 {
   text-align: center;
 }
 
-.mali
+.flag {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+  background-color: red;
+  position: middle;
+}
+
