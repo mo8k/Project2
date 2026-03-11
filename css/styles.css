@@ -4,9 +4,10 @@ body {
     line-height: 1.6;
     color: black;
     max-width: 850px;
-    margin: 40px auto;
-    padding: 20px;
+    margin: 100px auto;
+    padding: 50px;
     background-color: white;
+    font-size : 20px;
 }
 
 h1 {
@@ -55,12 +56,14 @@ h2 {
   color:blue;
   font-size: 25px;
 }
+
+
 .image-row{
   display: flex;
   justify-content: center;
   gap: 30px;
   font-size: 24px;
-  color:cadetblue
+  color:black
 }
 .image-box {
   text-align: center;
@@ -78,7 +81,7 @@ h2 {
 .video-box {
   text-align: center;
   font-size: 24px;
-  color: cadetblue;
+  color: black;
 }
 .video-box video {
   width: 100%;
