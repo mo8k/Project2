@@ -16,15 +16,16 @@ body {
 
 h1 {
   color:black;
-  font-size: 50px;
+  font-size: clamp(1.5em, 3vw, 2.5em);
+  margin-top: 2em;
   text-align: center;
 }
 
 .flag {
   display: block;
   margin: 0 auto;
-  width: 600px;
-  height: 600px;
+  width: 80vw;
+  height: 50vh;
   background-color: red;
   position: relative;
 }
@@ -40,6 +41,8 @@ h2 {
 }
 
 .nav-menu {
+  position: sticky;
+  top: 0;
   list-style: none;
   display: flex;
   justify-content: center;
@@ -73,19 +76,24 @@ h2 {
   color:black
 
 }
+
+.image-box img {
+  position: relative;
+  height: 700px;
+  object-fit: cover;
+}
+.image-row {
+  display: flex;
+  justify-content: auto;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 .image-box {
   text-align: center;
-
-}
-.image-box img {
-  width: 670px;
-  height: 800px;
-  object-fit: cover;
-
-}
-.image-box img{
-    width: 700px;
-    border-radius:8px;
+  flex: 1;          
+  min-width: 500px;   
+  max-width: 500px;
 }
 
 .video-box {
